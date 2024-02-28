@@ -4,6 +4,7 @@ import { useState } from "react";
 function App() {
   let [visiblity, setVisibility] = useState(false);
 
+  // to handle visibility 
   const handleMouseEnter = ()=>{
     setVisibility(true);
   };
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div className={styles.App}>
+      {/* change the prop here (top, down, left, right)  */}
       { visiblity && <TooltipComponent position='left'/>}
       <div className={styles.textDiv}>
         <span 
