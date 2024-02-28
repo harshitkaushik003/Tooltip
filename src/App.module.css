@@ -1,0 +1,15 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .textDiv {
+  position: fixed;
+  letter-spacing: 3px;
+}
+.App .textDiv span {
+  border-bottom: 1px dotted black;
+}/*# sourceMappingURL=App.module.css.map */
